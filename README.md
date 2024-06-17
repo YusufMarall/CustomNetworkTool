@@ -3,8 +3,8 @@
  Stay in Legal !!!!!
 
  
-Usage: git clone https://github.com/YusufMarall/CustomNetworkTool.git
-cd NetworkTool
+Usage: git clone https://github.com/YusufMarall/CustomNetworkTool.git &&
+cd NetworkTool &&
 python3 CNTool.py
 
 
