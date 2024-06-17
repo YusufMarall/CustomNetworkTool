@@ -1,7 +1,9 @@
 # CustomNetworkTool
 ❗ Do not use it for malicious purposes, it's only for educational purposes.
  Stay in Legal !!!!!
-
+Usage: git clone https://github.com/YusufMarall/CustomNetworkTool.git
+cd NetworkTool
+python3 CNTool.py
 ![Ekran görüntüsü 2024-06-17 155733](https://github.com/YusufMarall/CustomNetworkTool/assets/114530242/eb208ca9-b528-49f3-8ac4-adccd54fd553)
 
 
