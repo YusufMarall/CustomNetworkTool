@@ -19,7 +19,7 @@ This tool is designed to perform various network and security tests. Below you c
 ####Scanning Port Similar to  Nmap
 I wrote a module similar to Nmap, but faster than Nmap because I only scan specific ports. This works like this:
 
-- If one of the specific ports I scan is open, I can use a network analyzer like Wireshark to monitor the traffic coming through that port. For example, when port 8080 (HTTP) is open, if our victim logs into an HTTP site through this port, I can see sensitive information such as his password.
+- If one of the specific ports I scan is open, I can use a network analyzer like Wireshark to monitor the traffic coming through that port. For example, when port 8080 (HTTP) is open, if our victim logs into an HTTP site through this port, I can see sensitive information such as his password.(via arp poisining & reverse shell code)
 
 ### if(r==2)
 #### Showing Website Content and SQL Injection Attempt
